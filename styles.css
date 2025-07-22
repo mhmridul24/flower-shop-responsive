@@ -24,24 +24,73 @@
     max-width: 1920px;
 
 }
+.banner-container{
+    display: flex;
+    align-items: center;
+    padding: 50px 10px 0 10px;
+}
 .banner-left{
     margin-left:180px ;
+    /* flex: 1; */
 }
 .banner-left p{
     font-size: 14px;
     font-weight: 600px;
     margin-bottom: 20px;
     color: rgba(39, 39, 39, 0.6);
+    max-width: 70%;
 }
 .banner-right{
     margin-right: 180px ;
 }
-.banner-right img{
-    height: 635px;
+.banner-right img {
+  width: 100%;
+  height: auto;
+  max-width: 500px; /* Optional: limit image width */
+  margin: 20px auto 0 auto;
+  display: block;
 }
 
 .banner-h2{
     font-size: 50px;
     font-weight: 900;
     margin-bottom: 20px;
+}
+
+
+/* Responsive design */
+/* For Mobile */
+@media (max-width:992px){
+    .banner-left{
+        margin-left: 10px;
+        max-width: 100%;
+    }
+    .banner-left p{
+        max-width: 100%;
+    }
+    .banner-right{
+        margin-right: 10px;
+    }
+   
+    .banner-container{
+        padding-right: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-h2{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.banner-right img {
+  width: 100%;
+  height: auto;
+  max-width: 500px; /* Optional: limit image width */
+  margin: 20px auto 0 auto;
+  display: block;
+}
+.banner{
+    justify-content: center;
+    width: auto;
+}
 }
