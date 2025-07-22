@@ -1,0 +1,47 @@
+*{
+    font-family: "Lato", sans-serif;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+/* Shared styles */
+.btn{
+  background-color: #E55473;
+  font-size: 18px;  
+  font-weight: 700;
+  color: white;
+  padding: 15px 30px;
+  border-radius:8px ;
+  border: none;
+}
+
+/* Banner design */
+.banner{
+    background-color:rgba(229, 84, 115, 0.1) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1920px;
+
+}
+.banner-left{
+    margin-left:180px ;
+}
+.banner-left p{
+    font-size: 14px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+    color: rgba(39, 39, 39, 0.6);
+}
+.banner-right{
+    margin-right: 180px ;
+}
+.banner-right img{
+    height: 635px;
+}
+
+.banner-h2{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
