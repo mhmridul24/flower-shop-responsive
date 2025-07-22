@@ -14,6 +14,10 @@
   border-radius:8px ;
   border: none;
 }
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
 
 /* Banner design */
 .banner{
@@ -56,6 +60,65 @@
     font-weight: 900;
     margin-bottom: 20px;
 }
+
+
+/* Section 1 design Featured products */
+.section1-title{
+    padding: 20px;
+    margin-top: 50px;
+}
+.section1-title .title  {  
+    text-align: center;
+}
+.section1-title .title .banner-h2 {
+    font-size: 20px;
+}
+.section1-title .title p {
+    font-size: 15px;
+    color: rgba(39, 39, 39, 0.6);
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Flower container design */
+.product1 .pic-container{
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 50% 50% 0 0;
+}
+.product2 .pic-container{
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 50% 50% 0 0;
+}
+.product3 .pic-container{
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 50% 50% 0 0;
+}
+.pic-container img{
+    display: block;
+}
+.pic-name{
+    text-decoration: underline;
+}
+.pic-name p{
+    font-weight: 750;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product-showcase{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
 
 
 /* Responsive design */
