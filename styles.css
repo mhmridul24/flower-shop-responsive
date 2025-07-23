@@ -124,11 +124,31 @@ height: 280px;
   gap: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
+/* Our Service section */
+.our-service{
+  background-color: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 20px ;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.service{
+  margin-top: 30px ;
+  margin-bottom: 30px;
+}
+.service > p {
+  font-weight: 650;
+  color: rgba(39, 39, 39, 0.80);
+  margin-top: 10px;
+}
 /* Responsive design */
 /* For Mobile */
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .banner-left {
     margin-left: 10px;
     max-width: 100%;
@@ -161,4 +181,24 @@ height: 280px;
     justify-content: center;
     width: auto;
   }
+  /* Product showcase section */
+  .product-showcase {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product1, .product2, .product3 {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+
+  .pic-container img {
+    width: 100%;
+    height: auto;
+  }
 }
+
+
