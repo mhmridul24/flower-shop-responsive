@@ -1,51 +1,50 @@
-*{
-    font-family: "Lato", sans-serif;
-    box-sizing: content-box;
-    margin: 0;
-    padding: 0;
+* {
+  font-family: "Lato", sans-serif;
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
 }
 /* Shared styles */
-.btn{
-  background-color: #E55473;
-  font-size: 18px;  
+.btn {
+  background-color: #e55473;
+  font-size: 18px;
   font-weight: 700;
   color: white;
   padding: 15px 30px;
-  border-radius:8px ;
+  border-radius: 8px;
   border: none;
 }
-.container{
-    max-width: 1280px;
-    margin: auto;
+.container {
+  max-width: 1280px;
+  margin: auto;
 }
 
 /* Banner design */
-.banner{
-    background-color:rgba(229, 84, 115, 0.1) ;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 1920px;
-
+.banner {
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1920px;
 }
-.banner-container{
-    display: flex;
-    align-items: center;
-    padding: 50px 10px 0 10px;
+.banner-container {
+  display: flex;
+  align-items: center;
+  padding: 50px 10px 0 10px;
 }
-.banner-left{
-    margin-left:180px ;
-    /* flex: 1; */
+.banner-left {
+  margin-left: 180px;
+  /* flex: 1; */
 }
-.banner-left p{
-    font-size: 14px;
-    font-weight: 600px;
-    margin-bottom: 20px;
-    color: rgba(39, 39, 39, 0.6);
-    max-width: 70%;
+.banner-left p {
+  font-size: 14px;
+  font-weight: 600px;
+  margin-bottom: 20px;
+  color: rgba(39, 39, 39, 0.6);
+  max-width: 70%;
 }
-.banner-right{
-    margin-right: 180px ;
+.banner-right {
+  margin-right: 180px;
 }
 .banner-right img {
   width: 100%;
@@ -55,105 +54,111 @@
   display: block;
 }
 
-.banner-h2{
-    font-size: 50px;
-    font-weight: 900;
-    margin-bottom: 20px;
+.banner-h2 {
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 20px;
 }
-
 
 /* Section 1 design Featured products */
-.section1-title{
-    padding: 20px;
-    margin-top: 50px;
+.section1-title {
+  padding: 20px;
+  margin-top: 50px;
 }
-.section1-title .title  {  
-    text-align: center;
+.section1-title .title {
+  text-align: center;
 }
 .section1-title .title .banner-h2 {
-    font-size: 20px;
+  font-size: 20px;
 }
 .section1-title .title p {
-    font-size: 15px;
-    color: rgba(39, 39, 39, 0.6);
+  font-size: 15px;
+  color: rgba(39, 39, 39, 0.6);
 }
-.title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Flower container design */
-.product1 .pic-container{
-    background-color: rgba(167, 33, 98, 0.15);
-    border-radius: 50% 50% 0 0;
+.product1 .pic-container {
+  background-color: rgba(167, 33, 98, 0.15);
+  border-radius: 50% 50% 0 0;
+  /* height: 338px;
+  weight: 464px; */
 }
-.product2 .pic-container{
-    background-color: rgba(5, 151, 160, 0.15);
-    border-radius: 50% 50% 0 0;
+.product2 .pic-container {
+  background-color: rgba(5, 151, 160, 0.15);
+  border-radius: 50% 50% 0 0;
 }
-.product3 .pic-container{
-    background-color: rgba(71, 125, 17, 0.15);
-    border-radius: 50% 50% 0 0;
+.product3 .pic-container {
+  background-color: rgba(71, 125, 17, 0.15);
+  border-radius: 50% 50% 0 0;
 }
-.pic-container img{
-    display: block;
+.pic-container img {
+  display: block;
+position: relative;
+width: 314px;
+height: 471px;
+left: 40px;
+right: -1141px;
+top:  0px;
+bottom: -1141px;
+max-width: 80%;
+height: 280px;
 }
-.pic-name{
-    text-decoration: underline;
+.pic-name {
+  text-decoration: underline;
 }
-.pic-name p{
-    font-weight: 750;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.pic-name p {
+  font-weight: 750;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.product-showcase{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.product-showcase {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-
-
-
-
 
 /* Responsive design */
 /* For Mobile */
-@media (max-width:992px){
-    .banner-left{
-        margin-left: 10px;
-        max-width: 100%;
-    }
-    .banner-left p{
-        max-width: 100%;
-    }
-    .banner-right{
-        margin-right: 10px;
-    }
-   
-    .banner-container{
-        padding-right: 0;
-        flex-direction: column;
-        align-items: center;
-    }
-    .banner-h2{
+@media (max-width: 992px) {
+  .banner-left {
+    margin-left: 10px;
+    max-width: 100%;
+  }
+  .banner-left p {
+    max-width: 100%;
+  }
+  .banner-right {
+    margin-right: 10px;
+  }
+
+  .banner-container {
+    padding-right: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner-h2 {
     font-size: 30px;
     font-weight: 900;
     margin-bottom: 20px;
-}
-.banner-right img {
-  width: 100%;
-  height: auto;
-  max-width: 500px; /* Optional: limit image width */
-  margin: 20px auto 0 auto;
-  display: block;
-}
-.banner{
+  }
+  .banner-right img {
+    width: 100%;
+    height: auto;
+    max-width: 500px; /* Optional: limit image width */
+    margin: 20px auto 0 auto;
+    display: block;
+  }
+  .banner {
     justify-content: center;
     width: auto;
-}
+  }
 }
